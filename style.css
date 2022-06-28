@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* overflow: hidden; */
+}
+#nav img{
+    width: 25%;
+    height: 100%;
+
+}
+#nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+  
+   
+}
+#nav #left{
+    display: flex;
+    width: 50%;
+    
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding:20px 60px;
+  
+}
+#nav #left a{
+text-decoration: none;
+color: grey;
+
+
+}
+#nav #right{
+    display: flex;
+    width: 50%;
+    align-items:center;
+    justify-content:right;
+    height: 100%;
+    
+    background-color: white;
+}
+#nav #right i{
+font-size: 25px;
+padding-right: 60px;
+font-weight: 100;
+}
+#nav #right h6{
+    letter-spacing:1px;
+    font-size: 8px;
+    font-weight: 100;
+    /* padding: 10px; */
+    }
+    #gift{
+        width: 100%;
+        height: 90%;
+    }
+
+#circlediv{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/* margin-left: 80px; */
+    height: 25%;
+
+}
+#imgbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-left: 100px;
+    height: 100%;
+ 
+}
+#circleimg{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    
+    border-radius: 50%;
+}
+#circlediv img{
+    width: 91%;
+    /* height: 91%; */
+  border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    
+
+}
+#whitediv{
+    width: 5%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: white;
+    position:absolute;
+    right:0%;
+    
+}
+#whitedivl{
+    width: 5%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position:absolute;
+   left:0%;
+}
+#circlediv i{
+    position:absolute;
+    /* right: 0; */
+    font-size: 50px;
+}
+#gift{
+    width: 100%;
+ height: 100%;
+ /* background-color: #D3134F; */
+}
+#rakhigift{
+    position: relative;
+    top: 5%;
+    left: 2%;
+    width: 95%;
+    height: 40%;
+    padding: 10px 41px;
+
+   
+   
+}
+#one{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+justify-content:space-between;
+}
+#one button{
+    font-weight: 200;
+    width: 7%;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: #D3134F;
+}
+#listgift{
+    width: 100%;
+    height: 100%;
+   
+display: flex;
+align-items:center ;
+justify-content: space-between  ;
+}
+#shop1{
+    width: 25%;
+    display: block;
+    height: 100%;
+
+}
+#shop1 img{
+    object-fit:cover;
+    padding: 10px;
+    width: 90%;
+    height: 80%;
+}
+#shop1 button{
+    width: 80%;
+    color: white;
+    border: none;
+    background-color: #D3134F;
+}
+#shop1 a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+
+#imgrakhilive{
+    width: 100%;
+    margin-top:40%;
+    height: 60%;
+    background: url(https://cdn.shopify.com/s/files/1/2090/3151/files/RAKHI_BANNER__1654851826_203.122.11.36.jpg?v=1654852191);
+    background-position: center;
+    background-size: cover;
+}
+#copyimg{
+    width: 100%;
+    margin-top:10%;
+    height: 60%;
+    background: url(https://cdn.shopify.com/s/files/1/2090/3151/files/SALT_LAMP_BANNER.gif?v=1654845186);
+    background-position: center;
+    background-size: cover;
+}
+#botttomimg{
+    width: 80%;
+    height: 25%;
+    /* position:absolute;
+    top: 50%; */
+    position: relative;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 200px;
+    
+}
+#insta{
+  position:absolute;
+  top: -20%;
+  left: 40%;
+  font-weight: 250;
+  font-size: 15px;
+}
+#pooja_box{
+    width: 100%;
+    height: 40%;
+ 
+    margin-top: 5%     ;
+}
+#detail{
+    width: 100%;
+    height: 50%;
+  
+  
+}
+#detail h3{
+    text-align: center;
+    font-weight: 200;
+    line-height: 40px;
+}
+#detail p{
+    line-height: 20px;
+   margin-left: 10%;
+    width: 75%;
+    font-size: 13px;
+}
+
+
+
+#services{
+    width: 100%;
+    height: 40%;
+    background: url(/Screenshot\ 2022-06-28\ 150124.png);
+    background-position: center;
+    background-size:contain;
+    border-top: solid .5px rgba(128, 128, 128, 0.364);
+}
+#lastsection{
+    width: 100%;
+    height: 80%;
+    background-color: #FFAFB6;
+    
+}
+#ltop{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ones{
+    width: 25%;
+    height: 100%;
+    /* background: url(/pooja.png); */
+
+}
+#ones img{
+    margin: 15%;
+    width: 90%;
+    height: 80%;
+}
+#twos{
+    width: 25%;
+    height: 100%;
+   align-items: center;
+   /* background-color: red; */
+   justify-content: center;
+}
+#twos h2 {
+    text-align: center;
+    margin-top: 18%;
+    color: white;
+    line-height: 55px;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+#twos a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: block;
+    justify-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+
+
+}
+#threes{
+    width: 25%;
+    height: 100%;
+}
+#fours{
+    width: 25%;
+    height: 100%;
+}
+#lbottom{
+    width:100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#lright{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#topsale{
+    width: 100%;
+    height: 3%;
+    background-color: #E85992;
+}
+#topsale h3{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 250;
+}
+#lleft{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+#lleft img{
+    /* padding-left: 10%; */
+    width: 14%;
+    height: 30%;
+    margin-left: 1px;
+}
+#lleft h3{
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+#lright h3{
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+#lright button{
+    width: 8%;
+    height: 18%;
+}
+@media only screen and (max-width: 380px) {
+    
+    #circlediv {
+        width: 97%;
+       
+        height: 7%;
+    }
+    #whitedivl {
+        width: 8%;
+        height: 8%;
+       
+        left: 0%;
+  }
+  #whitediv {
+    width: 5%;
+    height: 8%;
+
+}
+#imgbox {
+    width: 91%;
+    margin-left: 39px;
+}
+#circlediv img {
+    width: 106%;
+    height: 90%;
+}
+#topsale {
+    width: 100%;
+    height: 1.8%;
+    background-color: #E85992;
+}
+#topsale h3 {
+    text-align: center;
+    font-size: 9px;
+    padding-top: 1px;
+}
+#lleft img {
+    /* padding-left: 10%; */
+    width: 21%;
+    height: 14%;
+    margin-left: 2px;
+}
+#lleft h3 {
+    font-size: 7px;
+   
+}
+#lright h3 {
+    font-size: 8px;
+    font-weight: 200;
+    color: white;
+}
+#lright button {
+    width: 17%;
+    height: 17%;
+    font-size: 7px;
+}
+#services {
+    width: 100%;
+    height: 10%;
+}
+#detail p {
+    line-height: 20px;
+    margin-left: 7%;
+    width: 88%;
+    font-size: 7px;
+}
+#ones img {
+    margin: 4%;
+    width: 82px;
+    height: 34%;
+}
+#twos h2 {
+    text-align: center;
+    margin-top: 18%;
+    color: white;
+    line-height: 38px;
+    font-weight: 200;
+    font-size: 8px;
+}
+#lastsection {
+    width: 100%;
+    height: 53%;
+    margin-top: -103px;
+}
+#twos a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: block;
+    justify-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+}
+#detail h3 {
+    text-align: center;
+    font-weight: 200;
+    line-height: 26px;
+}
+#botttomimg {
+    width: 82%;
+    height: 7%;
+   
+
+    margin-left: 13%;
+    margin-top: 36px;
+}
+#shop1 img {
+    object-fit: cover;
+    padding: px;
+    width: 134%;
+    height: 45%;
+}
+#imgrakhilive {
+    
+    margin-top: -13%;
+    height: 15%;
+}
+#copyimg {
+    width: 100%;
+    margin-top: 10%;
+    height: 15%;
+}
+#shop1 a {
+  
+    font-size: 3px;
+}
+#shop1 button {
+    width: 66%;
+    
+    font-size: 5px;
+}
+#one button {
+    font-weight: 200;
+    width: 20%;
+    height: 14px;
+    color: white;
+    border: none;
+    background-color: #D3134F;
+}
+#rakhigift {
+    position: relative;
+  
+    height: 23%;
+    padding: 0px 11px;
+}
+#insta {
+    
+    top: -27%;
+    left: 36%;
+    font-weight: 250;
+    font-size: 7px;
+}
+#nav {
+    width: 100%;
+    height: 4%;
+    display: flex;
+}
+#nav #left a {
+ font-size: 6px
+}
+#nav img {
+    width: 27%;
+    height: 88%;
+}
+#nav img {
+    width: 21%;
+    height: 55%;
+}
+#nav #right i {
+    font-size: 9px;
+    padding-right: 7px;
+    font-weight: 100;
+}
+#nav #right h6 {
+    letter-spacing: 1px;
+    font-size: 4px;
+}
+#nav #left {
+   
+  
+        padding: 0px 3px;
+    
+}
+#nav #left i {
+    font-size:5px
+}
+#right i{
+    font-size: 10px;
+}
+
+}
